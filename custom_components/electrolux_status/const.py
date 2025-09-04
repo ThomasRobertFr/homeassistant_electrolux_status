@@ -94,6 +94,9 @@ ATTRIBUTES_BLACKLIST: list[str] = ["^fCMiscellaneous.+",
                                    ]
 
 ATTRIBUTES_WHITELIST: list[str] = [".*waterUsage",
+                                   ".*optisenseResult",
+                                   ".*adTankBSoftLoaded",
+                                   ".*adTankADetLoaded",
                                    ".*tankAReserve",
                                    ".*tankBReserve"]
 
