@@ -183,6 +183,7 @@ CATALOG_BASE: dict[str, ElectroluxDevice] = {
         unit=None,
         entity_category=None,
         entity_icon="mdi:door-closed-lock",
+        state_invert=True
     ),
     "doorState": ElectroluxDevice(
         capability_info={"access": "read", "type": "string"},
